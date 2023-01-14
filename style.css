@@ -8,6 +8,7 @@ a{
 }
 body{
     background-color: #AAAAAA;
+    font-family: 'Poppins', sans-serif;
 }
 .container{
     color: #3A3A3A;
@@ -17,8 +18,9 @@ body{
 /******************Common Style end**************/
 /******************Navigation Start*****************/
 .nav-container{
-    background-color: #bfc6c9;
+    background-color: white;
     padding: 30px;
+
 }
 .navigation{
     display: flex;
@@ -51,6 +53,7 @@ nav ul li a{
 .banner-title{
     padding-right: 70px;
     font-size: 45px;
+    font-weight: 700;
 }
 .banner-discription {
     padding-right: 151px;
@@ -58,12 +61,14 @@ nav ul li a{
 }
 
 .btn-primary {
+    width: 195px;
+    height: 44px;
     background-color: #E02C6D;
     color: #ffffff;
-    padding: 12px 20px;
-    margin-top: 30px;
     border: none;
-    border-radius: 34%;
+    border-radius: 20px;
+    margin-top: 30px;
+
 }
 /****************Conpany Promotion start************/
 .company-container{
@@ -83,6 +88,7 @@ nav ul li a{
     background-color: white;
 }
 .popular-title{
+    font-weight: 800;
     text-align: center;
     padding-top: 100px;
     padding-bottom: 30px;
@@ -104,6 +110,7 @@ nav ul li a{
     height: 256px;
 }
 .product-title{
+    font-weight: 700;
     padding-top: 24px;
 }
 .product-price{
@@ -134,6 +141,7 @@ nav ul li a{
 .featured-image img{
     width: 404px;
     height: 270px;
+    padding-left: 30px;
 }
 .featured-detile{
     margin-left: 95px;
@@ -165,7 +173,7 @@ nav ul li a{
     display: grid;
     justify-content: center;
     text-align: center;
-    margin: 50px 0px;
+    padding: 50px 0px;
 }
 .footer-title{
     color: #ffffff;
@@ -177,6 +185,9 @@ nav ul li a{
 }
 .social ul{
     display: flex;
+}
+.social ul li{
+    padding: 10px;
 }
 .social ul{
     list-style: none;
