@@ -109,6 +109,12 @@ nav ul li a{
     width: 300px;
     height: 256px;
 }
+.gallary ul{
+    display: flex;
+}
+.gallary ul li{
+    list-style: none;
+}
 .product-title{
     font-weight: 700;
     padding-top: 24px;
@@ -192,4 +198,81 @@ nav ul li a{
 .social ul{
     list-style: none;
     justify-content: center;
+}
+
+
+
+@media only screen and (max-width:576px) {
+    nav ul{
+        visibility: hidden;
+    }
+    .container{
+        width: 576px;
+    }
+    .nav-title{
+        position: absolute;
+        right: 200px;
+    }
+    .nav-title h1{
+       font-size: 20px;
+       color: #000;
+    }
+    /**********************/
+    .banner-section{
+        position: relative;
+    }
+    .banner-image{
+        position: absolute;
+        top: 0;
+    }
+    .banner-detils{
+        position: absolute;
+        top: 500px;
+        text-align: center;
+    }
+    .banner-title{
+        font-size: 30px;
+        font-weight: 800;
+        color: #000;
+    }
+/* *********************************************/
+    .company-container{
+        padding-top: 850px;
+    }
+/****************************************************/
+    .popular-gallary{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 10px;
+    }
+    .gallary img{
+        width: 100%;
+    }
+    /********************************************/
+    .featured {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .featured-image img{
+        width: 100%;
+        padding: 0px;
+    }
+    .featured-title {
+        font-size: 49px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .featured-info{
+        text-align: center;
+        padding-right: 0px;
+    }
+    .featured-detile {
+        margin-left: 44px;
+    }
+    .btn-featured {
+        display: flex;
+        margin-inline: auto;
+    }
 }
